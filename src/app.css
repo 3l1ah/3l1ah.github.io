@@ -1,7 +1,9 @@
 @import 'tailwindcss';
 @font-face {
-	font-family: 'Doors Remade V4 Regular';
-	src: url('/foundation.ttf');
+	font-family: 'doors_remade_v4regular';
+	src: url('/foundation-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
 	font-family: 'Inconsolata';
@@ -12,7 +14,7 @@
 	src: url('/mangold.ttf');
 }
 @theme {
-	--font-foundation-gothic: 'Doors Remade V4 Regular';
+	--font-foundation-gothic: 'doors_remade_v4regular';
 	--font-inconsolata: 'Inconsolata';
 	--font-mangold: 'Mangold Regular';
 }

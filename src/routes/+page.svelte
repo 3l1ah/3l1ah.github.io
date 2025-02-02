@@ -1,4 +1,5 @@
 <script lang="ts">
+	import bgVid from '$lib/bgsneak.mp4';
 	import SectionTag from './SectionTag.svelte';
 </script>
 
@@ -15,7 +16,7 @@
 		loop
 		playsinline
 		class="absolute z-10 top-0 right-0 bottom-0 left-0 h-full w-full object-cover"
-		><source src="./bgsneak.mp4" /></video
+		><source src={bgVid} /></video
 	>
 	<div class="md:text-right text-center z-20 pb-20 space-y-6 px-16 w-full">
 		<p class="font-foundation-gothic text-4xl md:text-6xl uppercase">The Foundation</p>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Disallow: /_app/
+Sitemap: https://namegames.dev/sitemap.xml

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import bgVid from '$lib/bgsneak.mp4';
+	import bgVid from '$lib/assets/video/bgsneak.mp4';
 	import SectionTag from './SectionTag.svelte';
 </script>
 

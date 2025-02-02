@@ -1,15 +1,15 @@
 @import 'tailwindcss';
 @font-face {
 	font-family: 'Doors Remade V4 Regular';
-	src: url('./foundation.ttf');
+	src: url('/foundation.ttf');
 }
 @font-face {
 	font-family: 'Inconsolata';
-	src: url('./inconsolata.ttf');
+	src: url('/inconsolata.ttf');
 }
 @font-face {
 	font-family: 'Mangold Regular';
-	src: url('./mangold.ttf');
+	src: url('/mangold.ttf');
 }
 @theme {
 	--font-foundation-gothic: 'Doors Remade V4 Regular';

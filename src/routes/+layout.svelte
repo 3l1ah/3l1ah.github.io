@@ -1,10 +1,11 @@
 <script lang="ts">
 	import '../app.css';
 	import namegames from '$lib/namegames.svg';
+	import Squares from '$lib/Squares.svelte';
 	let { children } = $props();
 </script>
 
-<div class="bg-[#0d0b02] overscroll-none font-inconsolata text-white">
+<div class="overscroll-none font-inconsolata text-white">
 	<div class="fixed top-0 left-0 bg-gradient-to-b from-black right-0 z-50 flex p-3">
 		<img class="size-10" src={namegames} />
 	</div>
